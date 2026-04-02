@@ -13,7 +13,8 @@ Bu proje, tek tek link arama ve klasör düzenleme uğraşını azaltmak için y
 - Basit ve hızlı kullanım
 
 ### Credits
-[Mehmetyll](https://github.com/Mehmetyll) özel teşekkürler. GUI de çok yardımcı oldu ve kendisi olmasa bu script olmazdı
+[Mehmetyll](https://github.com/Mehmetyll)özel teşekkürler. GUI de çok yardımcı oldu ve kendisi olmasa bu script olmazdı
+[Einfrieren](https://github.com/korkusuzadX) önceki toolun yapımcısı ve yine yardımı dokundu
 
 ## Kullanım
 
