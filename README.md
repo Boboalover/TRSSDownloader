@@ -12,9 +12,12 @@ Bu proje, tek tek link arama ve klasör düzenleme uğraşını azaltmak için y
 - Düzenli klasör yapısı
 - Basit ve hızlı kullanım
 
+### Credits
+[Mehmetyll](https://github.com/Mehmetyll) özel teşekkürler. GUI de çok yardımcı oldu ve kendisi olmasa bu script olmazdı
+
 ## Kullanım
 
 CMD üzerinden aşağıdaki komutu çalıştır:
 
-```powershell
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass; powershell Invoke-Expression (Invoke-RestMethod "https://raw.githubusercontent.com/Boboalover/TRSSDownloader/refs/heads/main/TRSS-Downloader.ps1")
+```
+powershell -Command "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/Boboalover/TRSSDownloader/main/TRSS-Downloader.ps1')"
