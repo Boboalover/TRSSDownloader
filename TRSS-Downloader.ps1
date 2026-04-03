@@ -68,6 +68,7 @@ $global:toolList = @(
 $global:psList = @(
     [PSCustomObject]@{Ad="TR SS Auto Downloader";Aciklama="Turk SS toplulugu orijinal otomatik indirici scripti";Yazar="korkusuzadX";Url="https://raw.githubusercontent.com/korkusuzadX/TR-SS-AutoDownloader/main/TR_SS_Auto_Downloader.ps1";Renk="Mor"}
     [PSCustomObject]@{Ad="TR SS REG Checker";Aciklama="Turk SS toplulugu basit registry scripti";Yazar="boboalover";Url="https://github.com/Boboalover/TRSS-Simple-Registry-Checker/raw/refs/heads/main/TRSS-regchecker.ps1";Renk="Mor"}
+    [PSCustomObject]@{Ad="TR SS Macro Checker";Aciklama="Turk SS toplulugu basit mouse profile checker";Yazar="boboalover";Url="https://github.com/Boboalover/TRSS-mouse-macro-checker/raw/refs/heads/main/TRSSmacroChecker.ps1";Renk="Mor"}
     [PSCustomObject]@{Ad="Faker Detection";Aciklama="FakerFinder";Yazar="Praiselily";Url="https://raw.githubusercontent.com/praiselily/WeHateFakers/refs/heads/main/HotspotLogs.ps1";Renk="Mavi"}
     [PSCustomObject]@{Ad="JAR Scanner";Aciklama="JAR Scanner";Yazar="Praiselily";Url="https://raw.githubusercontent.com/praiselily/JARScanner/refs/heads/main/JARScanner.ps1";Renk="Mavi"}
     [PSCustomObject]@{Ad="Service Enabler";Aciklama="Servis açma scripti";Yazar="Praiselily";Url="https://raw.githubusercontent.com/praiselily/lilith-ps/refs/heads/main/Service-Enabler.ps1";Renk="Mavi"}
