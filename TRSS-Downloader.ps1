@@ -213,7 +213,7 @@ $global:katColor = @{
                     <StackPanel Orientation="Horizontal" Margin="15,0,0,0">
                         <TextBlock Text="TRSS" Foreground="{StaticResource AccentBrush}" FontWeight="Bold" FontSize="15" VerticalAlignment="Center"/>
                         <TextBlock Text="TOOLS" Foreground="#C0C0D0" FontWeight="SemiBold" FontSize="12" VerticalAlignment="Center" Margin="6,0,0,0"/>
-                        <TextBlock Text="v2.4" Foreground="#555" FontSize="10" VerticalAlignment="Center" Margin="10,2,0,0"/>
+                        <TextBlock Text="v2.6" Foreground="#555" FontSize="10" VerticalAlignment="Center" Margin="10,2,0,0"/>
                     </StackPanel>
                     
                     <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
