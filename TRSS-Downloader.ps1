@@ -63,6 +63,8 @@ $global:toolList = @(
     [PSCustomObject]@{Url="https://github.com/RRancio/Exec/raw/main/Files/Unicode.exe";Ad="Unicode.exe";Klasor="Misc";Tip="exe";Aciklama="Unicode karakter analizi"}
     [PSCustomObject]@{Url="https://github.com/ponei/CachedProgramsList/releases/download/1.1/CachedProgramsList.exe";Ad="CachedProgramsList.exe";Klasor="Misc";Tip="exe";Aciklama="Onbellek program listesi"}
     [PSCustomObject]@{Url="https://github.com/santiagolin/TimeChangeDetect/releases/download/1.0/TimeChangeDetect.exe";Ad="TimeChangeDetect.exe";Klasor="Misc";Tip="exe";Aciklama="Sistem saati degisim tespiti"}
+    [PSCustomObject]@{Url="https://github.com/MeowTonynoh/MeowNovowareFucker/raw/refs/heads/main/MeowNovowareFucker.exe";Ad="MeowNovowareFucker.exe";Klasor="Misc";Tip="exe";Aciklama="Novoware client tespit edici"}
+    [PSCustomObject]@{Url="https://github.com/MeowTonynoh/MeowDoomsdayFucker/raw/refs/heads/main/MeowDoomsdayFucker.exe";Ad="MeowDoomsdayFucker.exe";Klasor="Misc";Tip="exe";Aciklama="Doomsday client tespit edici"}
 )
 
 $global:psList = @(
