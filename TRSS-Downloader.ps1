@@ -25,8 +25,8 @@ $global:toolList = @(
     [PSCustomObject]@{Url="https://download.ericzimmermanstools.com/net6/WxTCmd.zip";Ad="WxTCmd.zip";Klasor="EricZimmerman";Tip="zip";Aciklama="Windows Timeline veritabani"}
     [PSCustomObject]@{Url="https://download.ericzimmermanstools.com/net9/RegistryExplorer.zip";Ad="RegistryExplorer.zip";Klasor="EricZimmerman";Tip="zip";Aciklama="Registry gezgini"}
     [PSCustomObject]@{Url="https://download.ericzimmermanstools.com/net9/MFTECmd.zip";Ad="MFTECmd.zip";Klasor="EricZimmerman";Tip="zip";Aciklama="MFT dosya sistemi ayristirici"}
-    [PSCustomObject]@{Url="https://download.ericzimmermanstools.com/JLECmd.zip";Ad="JLECmd.zip";Klasor="EricZimmerman";Tip="zip";Aciklama="JumpList CSV. olarak parselar"}
-    [PSCustomObject]@{Url="https://download.ericzimmermanstools.com/net9/JumpListExplorer.zip";Ad="JumpListExplorer.zip";Klasor="EricZimmerman";Tip="zip";Aciklama="JumpList GUI'li şekilde parselar"}
+    [PSCustomObject]@{Url="https://download.ericzimmermanstools.com/JLECmd.zip";Ad="JLECmd.zip";Klasor="EricZimmerman";Tip="zip";Aciklama="JumpList CSV olarak parselar"}
+    [PSCustomObject]@{Url="https://download.ericzimmermanstools.com/net9/JumpListExplorer.zip";Ad="JumpListExplorer.zip";Klasor="EricZimmerman";Tip="zip";Aciklama="JumpList GUI ile parselar"}
     [PSCustomObject]@{Url="https://github.com/spokwn/BAM-parser/releases/download/v1.2.9/BAMParser.exe";Ad="BAMParser.exe";Klasor="Spokwn";Tip="exe";Aciklama="BAM kaydi ayristirici"}
     [PSCustomObject]@{Url="https://github.com/spokwn/prefetch-parser/releases/download/v1.5.5/PrefetchParser.exe";Ad="PrefetchParser.exe";Klasor="Spokwn";Tip="exe";Aciklama="Prefetch ayristirici"}
     [PSCustomObject]@{Url="https://github.com/spokwn/process-parser/releases/download/v0.5.5/ProcessParser.exe";Ad="ProcessParser.exe";Klasor="Spokwn";Tip="exe";Aciklama="Surec bilgisi ayristirici"}
@@ -39,30 +39,30 @@ $global:toolList = @(
     [PSCustomObject]@{Url="https://github.com/korkusuzadX/TR-SS-AutoDownloader/raw/main/echo%20tools/echo-journal.exe";Ad="Echo-Journal.exe";Klasor="Echo";Tip="exe";Aciklama="Journal analiz araci"}
     [PSCustomObject]@{Url="https://github.com/korkusuzadX/TR-SS-AutoDownloader/raw/main/echo%20tools/echo-userassist.exe";Ad="UserAssist.exe";Klasor="Echo";Tip="exe";Aciklama="UserAssist kayit goruntuleyici"}
     [PSCustomObject]@{Url="https://github.com/korkusuzadX/TR-SS-AutoDownloader/raw/main/echo%20tools/echo-usb.exe";Ad="UsbTool.exe";Klasor="Echo";Tip="exe";Aciklama="USB kayit analiz araci"}
-    [PSCustomObject]@{Url="https://github.com/Orbdiff/PrefetchView/releases/download/v1.6.6/pv++.exe";Ad="pv++.exe";Klasor="OrbDiff";Tip="exe";Aciklama="Detaylı Prefetch analiz aracı"}
-    [PSCustomObject]@{Url="https://github.com/Orbdiff/AmcacheParser/releases/download/v1.0/AmcacheParser.exe";Ad="AmcacheParser.exe";Klasor="OrbDiff";Tip="exe";Aciklama="Detaylı Amcache analiz aracı"}
-    [PSCustomObject]@{Url="https://github.com/Orbdiff/JARParser/releases/download/v1.2/JARParser.exe";Ad="JARParser.exe";Klasor="OrbDiff";Tip="exe";Aciklama="basit bir JAR scanner"}
+    [PSCustomObject]@{Url="https://github.com/Orbdiff/PrefetchView/releases/download/v1.6.6/pv++.exe";Ad="pv++.exe";Klasor="OrbDiff";Tip="exe";Aciklama="Detayli Prefetch analiz araci"}
+    [PSCustomObject]@{Url="https://github.com/Orbdiff/AmcacheParser/releases/download/v1.0/AmcacheParser.exe";Ad="AmcacheParser.exe";Klasor="OrbDiff";Tip="exe";Aciklama="Detayli Amcache analiz araci"}
+    [PSCustomObject]@{Url="https://github.com/Orbdiff/JARParser/releases/download/v1.2/JARParser.exe";Ad="JARParser.exe";Klasor="OrbDiff";Tip="exe";Aciklama="Basit bir JAR scanner"}
     [PSCustomObject]@{Url="https://github.com/Orbdiff/Fileless/releases/download/v1.3/fileless.exe";Ad="Fileless.exe";Klasor="OrbDiff";Tip="exe";Aciklama="Powershell izleri ile fileless arar"}
-    [PSCustomObject]@{Url="https://github.com/Orbdiff/BAMReveal/releases/download/v1.3/BAMReveal.exe";Ad="BAMReveal.exe";Klasor="OrbDiff";Tip="exe";Aciklama="BAM kayıtlarını görüntüler"}
-    [PSCustomObject]@{Url="https://github.com/Orbdiff/DPS-Analyzer/releases/download/v1.1/dpsanalyzer.exe";Ad="OrbDiff-DPSAnalyzer.exe";Klasor="OrbDiff";Tip="exe";Aciklama="DPS analiz aracı"}
+    [PSCustomObject]@{Url="https://github.com/Orbdiff/BAMReveal/releases/download/v1.3/BAMReveal.exe";Ad="BAMReveal.exe";Klasor="OrbDiff";Tip="exe";Aciklama="BAM kayitlarini goruntuler"}
+    [PSCustomObject]@{Url="https://github.com/Orbdiff/DPS-Analyzer/releases/download/v1.1/dpsanalyzer.exe";Ad="OrbDiff-DPSAnalyzer.exe";Klasor="OrbDiff";Tip="exe";Aciklama="DPS analiz araci"}
     [PSCustomObject]@{Url="https://github.com/ItzIceHere/RedLotus-Mod-Analyzer/releases/download/RL/RedLotusModAnalyzer.exe";Ad="RedLotusModAnalyzer.exe";Klasor="RedLotus";Tip="exe";Aciklama="Mod analiz araci"}
-    [PSCustomObject]@{Url="https://github.com/ItzIceHere/RedLotusAltChecker/releases/download/RL/RedLotusAltChecker.exe";Ad="RedLotusAltChecker.exe";Klasor="RedLotus";Tip="exe";Aciklama="Alt hesap bakma aracı"}
+    [PSCustomObject]@{Url="https://github.com/ItzIceHere/RedLotusAltChecker/releases/download/RL/RedLotusAltChecker.exe";Ad="RedLotusAltChecker.exe";Klasor="RedLotus";Tip="exe";Aciklama="Alt hesap bakma araci"}
     [PSCustomObject]@{Url="https://github.com/ItzIceHere/RedLotus-Task-Sentinel/releases/download/RL/RedLotusTaskSentinel.exe";Ad="RedLotusTaskSentinel.exe";Klasor="RedLotus";Tip="exe";Aciklama="Gorev izleyici sentinel"}
     [PSCustomObject]@{Url="https://github.com/trSScommunity/PathDuzenleyiciV2/raw/refs/heads/main/PathDuzenleyicisiV2.exe";Ad="PathDuzenleyicisiV2.exe";Klasor="TRSSCommunity";Tip="exe";Aciklama="Yol duzenleyici v2"}
     [PSCustomObject]@{Url="https://github.com/trSScommunity/MZHunter/raw/refs/heads/main/MzHunter.exe";Ad="MzHunter.exe";Klasor="TRSSCommunity";Tip="exe";Aciklama="MZ basligi tarayici"}
-    [PSCustomObject]@{Url="https://github.com/Mehmetyll/Mandarin-Tool/releases/download/Mandarin-Tool/MandarinTool.jar";Ad="MandarinTool.jar";Klasor="TRSSCommunity";Tip="jar";Aciklama="Multi SS tool/JAR decompiler"}
+    [PSCustomObject]@{Url="https://github.com/Mehmetyll/Mandarin-Tool/releases/download/Mandarin-Tool/MandarinTool.jar";Ad="MandarinTool.jar";Klasor="TRSSCommunity";Tip="jar";Aciklama="Multi SS tool / JAR decompiler"}
     [PSCustomObject]@{Url="https://go.magnetforensics.com/e/52162/MagnetEncryptedDiskDetector/kpt9bg/1663239667/h/LtXFtTL-Soawv5C1oL3BIEghi7e1Lx93yesZLR--Ok0";Ad="MagnetEncryptedDiskDetector.exe";Klasor="Magnet";Tip="exe";Aciklama="Sifreli disk tespit araci"}
-    [PSCustomObject]@{Url="https://go.magnetforensics.com/e/52162/mail-utm-campaign-UTMC-0000044/llr4bg/1663358653/h/4kZ9Y4i2yPRqBzuQMrywA_v5bfkpG3rG8gEiSWrYU70";Ad="MRCv120.exe";Klasor="Magnet";Tip="exe";Aciklama="RAM dump aracı"}
+    [PSCustomObject]@{Url="https://go.magnetforensics.com/e/52162/mail-utm-campaign-UTMC-0000044/llr4bg/1663358653/h/4kZ9Y4i2yPRqBzuQMrywA_v5bfkpG3rG8gEiSWrYU70";Ad="MRCv120.exe";Klasor="Magnet";Tip="exe";Aciklama="RAM dump araci"}
     [PSCustomObject]@{Url="https://archive.org/download/access-data-ftk-imager-4.7.1/AccessData_FTK_Imager_4.7.1.exe";Ad="FTK_Imager_4.7.1.exe";Klasor="Forensics";Tip="exe";Aciklama="Disk imaj alma araci"}
     [PSCustomObject]@{Url="https://github.com/Yamato-Security/hayabusa/releases/download/v3.6.0/hayabusa-3.6.0-win-aarch64.zip";Ad="hayabusa-3.6.0-win-aarch64.zip";Klasor="Forensics";Tip="zip";Aciklama="Windows event log analizi"}
     [PSCustomObject]@{Url="https://github.com/Velocidex/velociraptor/releases/download/v0.75/velociraptor-v0.75.1-windows-amd64.exe";Ad="Velocidace.exe";Klasor="Forensics";Tip="exe";Aciklama="Dijital forensic platform"}
     [PSCustomObject]@{Url="https://github.com/winsiderss/si-builds/releases/download/3.2.25275.112/systeminformer-build-canary-setup.exe";Ad="SystemInformer_Canary_Setup.exe";Klasor="SystemTools";Tip="exe";Aciklama="Gelismis sistem monitoru"}
     [PSCustomObject]@{Url="https://www.voidtools.com/Everything-1.4.1.1029.x86-Setup.exe";Ad="Everything-Setup.exe";Klasor="SystemTools";Tip="exe";Aciklama="Anlik dosya arama motoru"}
-    [PSCustomObject]@{Url="https://github.com/NotRequiem/InjGen/releases/download/v2.0/InjGen.exe";Ad="InjGen.exe";Klasor="Analysis";Tip="exe";Aciklama="Enjeksiyon tespit araci"}
+    [PSCustomObject]@{Url="https://github.com/NotRequiem/InjGen/releases/download/v2.0/InjGen.exe";Ad="InjGen.exe";Klasor="Analysis";Tip="exe";Aciklama="Enj eksiyon tespit araci"}
     [PSCustomObject]@{Url="https://github.com/deathmarine/Luyten/releases/download/v0.5.4_Rebuilt_with_Latest_depenencies/luyten-0.5.4.exe";Ad="Luyten.exe";Klasor="Analysis";Tip="exe";Aciklama="Java decompiler"}
     [PSCustomObject]@{Url="https://github.com/nay-cat/dpsanalyzer/releases/download/1.3/dpsanalyzer.exe";Ad="dpsanalyzer.exe";Klasor="Analysis";Tip="exe";Aciklama="DPS analiz araci"}
     [PSCustomObject]@{Url="https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win64_portable_3.09_x64.zip";Ad="DIE_engine_portable.zip";Klasor="Analysis";Tip="zip";Aciklama="Detect-It-Easy PE analiz"}
-    [PSCustomObject]@{Url="https://github.com/nay-cat/Jarabel/releases/download/light/Jarabel.Light.exe";Ad="Jarabel.Light.exe";Klasor="Misc";Tip="exe";Aciklama="Jar analiz araci"}
+    [PSCustomObject]@{Url="https://github.com/nay-cat/Jarabel/releases/download/light/Jarabel.Light.exe";Ad="Jarabel.Light.exe";Klasor="Misc";Tip="exe";Aciklama="JAR analiz araci"}
     [PSCustomObject]@{Url="https://github.com/RRancio/Exec/raw/main/Files/Unicode.exe";Ad="Unicode.exe";Klasor="Misc";Tip="exe";Aciklama="Unicode karakter analizi"}
     [PSCustomObject]@{Url="https://github.com/ponei/CachedProgramsList/releases/download/1.1/CachedProgramsList.exe";Ad="CachedProgramsList.exe";Klasor="Misc";Tip="exe";Aciklama="Onbellek program listesi"}
     [PSCustomObject]@{Url="https://github.com/santiagolin/TimeChangeDetect/releases/download/1.0/TimeChangeDetect.exe";Ad="TimeChangeDetect.exe";Klasor="Misc";Tip="exe";Aciklama="Sistem saati degisim tespiti"}
@@ -77,10 +77,10 @@ $global:psList = @(
     [PSCustomObject]@{Ad="TR SS Macro Checker";Aciklama="Turk SS toplulugu basit mouse profile checker";Yazar="boboalover";Url="https://github.com/Boboalover/TRSS-mouse-macro-checker/raw/refs/heads/main/TRSSmacroChecker.ps1";Renk="Mor"}
     [PSCustomObject]@{Ad="Faker Detection";Aciklama="FakerFinder";Yazar="Praiselily";Url="https://raw.githubusercontent.com/praiselily/WeHateFakers/refs/heads/main/HotspotLogs.ps1";Renk="Mavi"}
     [PSCustomObject]@{Ad="JAR Scanner";Aciklama="JAR Scanner";Yazar="Praiselily";Url="https://raw.githubusercontent.com/praiselily/JARScanner/refs/heads/main/JARScanner.ps1";Renk="Mavi"}
-    [PSCustomObject]@{Ad="Service Enabler";Aciklama="Servis açma scripti";Yazar="Praiselily";Url="https://raw.githubusercontent.com/praiselily/lilith-ps/refs/heads/main/Service-Enabler.ps1";Renk="Mavi"}
+    [PSCustomObject]@{Ad="Service Enabler";Aciklama="Servis acma scripti";Yazar="Praiselily";Url="https://raw.githubusercontent.com/praiselily/lilith-ps/refs/heads/main/Service-Enabler.ps1";Renk="Mavi"}
     [PSCustomObject]@{Ad="Services";Aciklama="Gerekli Servislere bakar";Yazar="Praiselily";Url="https://raw.githubusercontent.com/praiselily/lilith-ps/refs/heads/main/Services.ps1";Renk="Mavi"}
-    [PSCustomObject]@{Ad="BAM Parser";Aciklama="BAM kayıtlarına bakar";Yazar="spokwn";Url="https://raw.githubusercontent.com/spokwn/powershells/refs/heads/main/bamparser.ps1";Renk="Kırmızı"}
-    [PSCustomObject]@{Ad="DoomsDay Finderv2";Aciklama="Prefetch kullannarak DoomsDay client arar";Yazar="zedoonvm1";Url="https://raw.githubusercontent.com/zedoonvm1/powershell-scripts/refs/heads/main/DoomsDayDetector.ps1";Renk="Mavi"}
+    [PSCustomObject]@{Ad="BAM Parser";Aciklama="BAM kayitlarina bakar";Yazar="spokwn";Url="https://raw.githubusercontent.com/spokwn/powershells/refs/heads/main/bamparser.ps1";Renk="Kirmizi"}
+    [PSCustomObject]@{Ad="DoomsDay Finderv2";Aciklama="Prefetch kullanarak DoomsDay client arar";Yazar="zedoonvm1";Url="https://raw.githubusercontent.com/zedoonvm1/powershell-scripts/refs/heads/main/DoomsDayDetector.ps1";Renk="Mavi"}
 )
 
 $global:katColor = @{
@@ -239,7 +239,7 @@ $global:katColor = @{
                     </Grid.RowDefinitions>
                     
                     <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,15,0,0">
-                        <RadioButton x:Name="TabAraclar" Content="Araçlar" Style="{StaticResource NavBtnStyle}" IsChecked="True" Foreground="{StaticResource TextMainBrush}" FontSize="14"/>
+                        <RadioButton x:Name="TabAraclar" Content="Araclar" Style="{StaticResource NavBtnStyle}" IsChecked="True" Foreground="{StaticResource TextMainBrush}" FontSize="14"/>
                         <RadioButton x:Name="TabScriptler" Content="Scriptler" Style="{StaticResource NavBtnStyle}" Foreground="{StaticResource TextDimBrush}" FontSize="14"/>
                     </StackPanel>
                     
@@ -260,10 +260,10 @@ $global:katColor = @{
                     
                     <Grid Margin="10,5,10,20">
                         <StackPanel HorizontalAlignment="Left" VerticalAlignment="Center">
-                            <TextBlock x:Name="CatTitle" Text="Genel Bakış" FontSize="28" FontWeight="Bold" Foreground="White"/>
-                            <TextBlock x:Name="CatDesc" Text="Sol menüden bir araç kategorisi veya script seçin." FontSize="13" Foreground="{StaticResource TextDimBrush}" Margin="0,6,0,0"/>
+                            <TextBlock x:Name="CatTitle" Text="Genel Bakis" FontSize="28" FontWeight="Bold" Foreground="White"/>
+                            <TextBlock x:Name="CatDesc" Text="Sol menuden bir arac kategorisi veya script secin." FontSize="13" Foreground="{StaticResource TextDimBrush}" Margin="0,6,0,0"/>
                         </StackPanel>
-                        <Button x:Name="BtnDownloadCat" Content="Kategoriyi İndir" Style="{StaticResource PrimaryBtn}" HorizontalAlignment="Right" VerticalAlignment="Center" Padding="20,10" Visibility="Collapsed"/>
+                        <Button x:Name="BtnDownloadCat" Content="Kategoriyi Indir" Style="{StaticResource PrimaryBtn}" HorizontalAlignment="Right" VerticalAlignment="Center" Padding="20,10" Visibility="Collapsed"/>
                     </Grid>
                     
                     <WrapPanel x:Name="ItemsContainer" Grid.Row="1" ItemWidth="400" Margin="0"/>
@@ -282,7 +282,7 @@ $global:katColor = @{
                     </Grid.ColumnDefinitions>
                     
                     <StackPanel Grid.Column="0" VerticalAlignment="Center">
-                        <TextBlock x:Name="StatusLabel" Text="Hazır." Foreground="{StaticResource TextDimBrush}" FontSize="13" Margin="0,0,0,10"/>
+                        <TextBlock x:Name="StatusLabel" Text="Hazir." Foreground="{StaticResource TextDimBrush}" FontSize="13" Margin="0,0,0,10"/>
                         <Border Height="6" Background="#1C1C28" CornerRadius="3" ClipToBounds="True">
                              <Border x:Name="ProgBar" HorizontalAlignment="Left" Width="0" Background="{StaticResource AccentBrush}" CornerRadius="3"/>
                         </Border>
@@ -290,9 +290,9 @@ $global:katColor = @{
                     </StackPanel>
                     
                     <StackPanel Grid.Column="2" VerticalAlignment="Center">
-                        <Button x:Name="BtnDownloadAll" Content="HEPSİNİ İNDİR" Style="{StaticResource PrimaryBtn}" Margin="0,0,0,12" Height="45" Width="250" FontSize="14"/>
+                        <Button x:Name="BtnDownloadAll" Content="HEPSINI INDIR" Style="{StaticResource PrimaryBtn}" Margin="0,0,0,12" Height="45" Width="250" FontSize="14"/>
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                            <Button x:Name="BtnOpenFolder" Content="Klasörü Aç" Background="#20202F" Foreground="White" BorderThickness="0" Padding="20,8" Margin="0,0,10,0" Cursor="Hand">
+                            <Button x:Name="BtnOpenFolder" Content="Klasoru Ac" Background="#20202F" Foreground="White" BorderThickness="0" Padding="20,8" Margin="0,0,10,0" Cursor="Hand">
                                 <Button.Resources>
                                     <Style TargetType="Border">
                                         <Setter Property="CornerRadius" Value="6"/>
@@ -403,8 +403,8 @@ function Start-Download {
             Write-Log "Mevcut: $($t.Ad)"
             $sk++
         } else {
-            $global:StatusLabel.Text = "İndiriliyor ($($i+1)/$n): $($t.Ad)"
-            Write-Log "İndiriliyor: $($t.Ad)"
+            $global:StatusLabel.Text = "Indiriliyor ($($i+1)/$n): $($t.Ad)"
+            Write-Log "Indiriliyor: $($t.Ad)"
             Update-Progress ($i+0.5) $n
             
             try {
@@ -413,13 +413,13 @@ function Start-Download {
                     $exD = Join-Path $dir ($t.Ad -replace "\.zip$","")
                     if (Expand-ZipSafe $dest $exD) {
                         Remove-Item $dest -Force -EA SilentlyContinue
-                        Write-Log "  -> Ayıklandı"
+                        Write-Log "  -> Ayiklandi"
                     } else {
                         Write-Log "  -> AYIKLAMA HATASI"
                     }
                 }
                 $ok++
-                Write-Log "  -> Tamamlandı"
+                Write-Log "  -> Tamamlandi"
             } catch {
                 Write-Log "  -> HATA OLUSTU: $($t.Ad)"
                 $er++
@@ -430,12 +430,12 @@ function Start-Download {
     }
     $wc.Dispose()
     $global:BtnDownloadAll.IsEnabled = $true
-    $global:StatusLabel.Text = "İndirme Tamamlandı | Başarılı: $ok | Mevcut: $sk | Hata: $er"
+    $global:StatusLabel.Text = "Indirme Tamamlandi | Basarili: $ok | Mevcut: $sk | Hata: $er"
 }
 
 function Show-Overview {
-    $global:CatTitle.Text = "Genel Bakış"
-    $global:CatDesc.Text = "Minecraft Screenshare (SS) ve Windows Adli Bilişim araçlarını kolayca indirin."
+    $global:CatTitle.Text = "Genel Bakis"
+    $global:CatDesc.Text = "Minecraft Screenshare (SS) ve Windows Adli Bilisim araclarini kolayca indirin."
     $global:BtnDownloadCat.Visibility = 'Collapsed'
     $global:ItemsContainer.Children.Clear()
     
@@ -465,7 +465,7 @@ function Show-Overview {
                 <StackPanel Margin="20,15,20,15" VerticalAlignment="Center">
                     <TextBlock Text="$kat" Foreground="White" FontSize="18" FontWeight="SemiBold"/>
                     <StackPanel Orientation="Horizontal" Margin="0,8,0,0">
-                        <TextBlock Text="$kDone / $kCount araç hazır" Foreground="#8B95A8" FontSize="12"/>
+                        <TextBlock Text="$kDone / $kCount arac hazir" Foreground="#8B95A8" FontSize="12"/>
                     </StackPanel>
                 </StackPanel>
             </Grid>
@@ -485,19 +485,18 @@ function Show-Category {
     $global:CatTitle.Foreground = $global:bc.ConvertFromString($krHex)
     
     $katTools = @($global:toolList | Where-Object { $_.Klasor -eq $kat })
-    $global:CatDesc.Text = "$($katTools.Count) araç bulunuyor."
+    $global:CatDesc.Text = "$($katTools.Count) arac bulunuyor."
     
     $global:BtnDownloadCat.Visibility = 'Visible'
     $global:BtnDownloadCat.Background = $global:bc.ConvertFromString($krHex)
     $global:BtnDownloadCat.Tag = $katTools
-    
     $global:ItemsContainer.Children.Clear()
 
     foreach ($t in $katTools) {
         $inst = Get-ToolStatus $t
         $stColor = if($inst){"#4ADEA0"}else{"#F85858"}
         $stText = if($inst){"Kurulu"}else{"Eksik"}
-        $btnText = if($inst){"Yenile"}else{"İndir"}
+        $btnText = if($inst){"Yenile"}else{"Indir"}
         $btnBg = if($inst){"#1A402A"}else{"#2A2045"}
         $btnFg = if($inst){"#4ADEA0"}else{"#9A72FF"}
 
@@ -556,8 +555,7 @@ function Show-Category {
         
         $btnBorder.Add_MouseLeftButtonDown({ param($sender, $e)
             $tObj = $sender.Tag
-            Write-Log "$($tObj.Ad) indiriliyor..."
-            Start-Download @($tObj)
+            Write-Log "$($tObj.Ad) indiriliyor..."            Start-Download @($tObj)
             Show-Category $global:CatTitle.Text
         })
         
@@ -571,7 +569,7 @@ function Show-Category {
 function Show-Scripts {
     $global:CatTitle.Text = "Scriptler"
     $global:CatTitle.Foreground = $global:bc.ConvertFromString("#8150FF")
-    $global:CatDesc.Text = "Harici PowerShell scriptlerini doğrudan çalıştırın."
+    $global:CatDesc.Text = "Harici PowerShell scriptlerini dogrudan calistirin."
     $global:BtnDownloadCat.Visibility = 'Collapsed'
     $global:ItemsContainer.Children.Clear()
 
@@ -611,7 +609,7 @@ function Show-Scripts {
         $btnBorder.VerticalAlignment = 'Center'
         
         $btnTxt = New-Object System.Windows.Controls.TextBlock
-        $btnTxt.Text = "Çalıştır"
+        $btnTxt.Text = "Calistir"
         $btnTxt.Foreground = $global:bc.ConvertFromString("White")
         $btnTxt.HorizontalAlignment = 'Center'
         $btnTxt.VerticalAlignment = 'Center'
@@ -622,12 +620,12 @@ function Show-Scripts {
         
         $btnBorder.Add_MouseLeftButtonDown({ param($sender, $e)
             $u = $sender.Tag
-            Write-Log "Script başlatılıyor..."
+            Write-Log "Script baslatiliyor..."
             try{
                 Start-Process powershell.exe -ArgumentList "-NoExit","-ExecutionPolicy","Bypass","-Command","iex (irm '$u')"
-                Write-Log "Script dış pencerede açıldı."
+                Write-Log "Script dis pencerede acildi."
             } catch {
-                Write-Log "Script başlatma hatası!"
+                Write-Log "Script baslatma hatasi!"
             }
         })
         
@@ -641,7 +639,7 @@ function Build-Sidebar {
     $global:CategoryList.Children.Clear()
     
     $genelBtn = New-Object System.Windows.Controls.RadioButton
-    $genelBtn.Content = "Genel Bakış"
+    $genelBtn.Content = "Genel Bakis"
     $genelBtn.Style = $window.Resources["NavBtnStyle"]
     $genelBtn.GroupName = "CatNav"
     $genelBtn.IsChecked = $true
@@ -673,9 +671,9 @@ $global:BtnDownloadCat.Add_Click({ param($sender, $e)
 })
 
 $global:BtnDownloadAll.Add_Click({ param($sender, $e)
-    Write-Log "Tüm araçlar indiriliyor..."
+    Write-Log "Tum araclar indiriliyor..."
     Start-Download $global:toolList
-    if ($global:CatTitle.Text -eq "Genel Bakış") { Show-Overview }
+    if ($global:CatTitle.Text -eq "Genel Bakis") { Show-Overview }
     elseif ($global:CatTitle.Text -eq "Scriptler") { Show-Scripts }
     else { Show-Category $global:CatTitle.Text }
 })
@@ -686,15 +684,15 @@ $window.FindName("BtnOpenFolder").Add_Click({ param($sender, $e)
 })
 
 $window.FindName("BtnRefresh").Add_Click({ param($sender, $e)
-    if ($global:CatTitle.Text -eq "Genel Bakış") { Show-Overview }
+    if ($global:CatTitle.Text -eq "Genel Bakis") { Show-Overview }
     elseif ($global:CatTitle.Text -eq "Scriptler") { Show-Scripts }
     else { Show-Category $global:CatTitle.Text }
-    Write-Log "Durum güncellendi."
+    Write-Log "Durum guncellendi."
 })
 
 Build-Sidebar
 Show-Overview
-Write-Log "SS-Tools Auto Downloader başlatıldı."
+Write-Log "SS-Tools Auto Downloader baslatildi."
 Write-Log "Kurulum konumu: $global:toolsRoot"
 
 $window.ShowDialog() | Out-Null
