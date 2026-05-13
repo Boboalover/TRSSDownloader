@@ -1,6 +1,7 @@
-﻿[CmdletBinding()]
+[CmdletBinding()]
 param()
 
+Clear-Host
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 Add-Type -AssemblyName PresentationFramework
 Add-Type -AssemblyName PresentationCore
@@ -42,6 +43,8 @@ $global:toolList = @(
     [PSCustomObject]@{Url="https://github.com/Orbdiff/AmcacheParser/releases/download/v1.0/AmcacheParser.exe";Ad="AmcacheParser.exe";Klasor="OrbDiff";Tip="exe";Aciklama="Detaylı Amcache analiz aracı"}
     [PSCustomObject]@{Url="https://github.com/Orbdiff/JARParser/releases/download/v1.2/JARParser.exe";Ad="JARParser.exe";Klasor="OrbDiff";Tip="exe";Aciklama="basit bir JAR scanner"}
     [PSCustomObject]@{Url="https://github.com/Orbdiff/Fileless/releases/download/v1.3/fileless.exe";Ad="Fileless.exe";Klasor="OrbDiff";Tip="exe";Aciklama="Powershell izleri ile fileless arar"}
+    [PSCustomObject]@{Url="https://github.com/Orbdiff/BAMReveal/releases/download/v1.3/BAMReveal.exe";Ad="BAMReveal.exe";Klasor="OrbDiff";Tip="exe";Aciklama="BAM kayıtlarını görüntüler"}
+    [PSCustomObject]@{Url="https://github.com/Orbdiff/DPS-Analyzer/releases/download/v1.1/dpsanalyzer.exe";Ad="OrbDiff-DPSAnalyzer.exe";Klasor="OrbDiff";Tip="exe";Aciklama="DPS analiz aracı"}
     [PSCustomObject]@{Url="https://github.com/ItzIceHere/RedLotus-Mod-Analyzer/releases/download/RL/RedLotusModAnalyzer.exe";Ad="RedLotusModAnalyzer.exe";Klasor="RedLotus";Tip="exe";Aciklama="Mod analiz araci"}
     [PSCustomObject]@{Url="https://github.com/ItzIceHere/RedLotusAltChecker/releases/download/RL/RedLotusAltChecker.exe";Ad="RedLotusAltChecker.exe";Klasor="RedLotus";Tip="exe";Aciklama="Alt hesap bakma aracı"}
     [PSCustomObject]@{Url="https://github.com/ItzIceHere/RedLotus-Task-Sentinel/releases/download/RL/RedLotusTaskSentinel.exe";Ad="RedLotusTaskSentinel.exe";Klasor="RedLotus";Tip="exe";Aciklama="Gorev izleyici sentinel"}
@@ -65,6 +68,7 @@ $global:toolList = @(
     [PSCustomObject]@{Url="https://github.com/santiagolin/TimeChangeDetect/releases/download/1.0/TimeChangeDetect.exe";Ad="TimeChangeDetect.exe";Klasor="Misc";Tip="exe";Aciklama="Sistem saati degisim tespiti"}
     [PSCustomObject]@{Url="https://github.com/MeowTonynoh/MeowNovowareFucker/raw/refs/heads/main/MeowNovowareFucker.exe";Ad="MeowNovowareFucker.exe";Klasor="Misc";Tip="exe";Aciklama="Novoware client tespit edici"}
     [PSCustomObject]@{Url="https://github.com/MeowTonynoh/MeowDoomsdayFucker/raw/refs/heads/main/MeowDoomsdayFucker.exe";Ad="MeowDoomsdayFucker.exe";Klasor="Misc";Tip="exe";Aciklama="Doomsday client tespit edici"}
+    [PSCustomObject]@{Url="https://github.com/praiselily/HardlinkFinder/releases/download/Tools/hardlink.exe";Ad="HardlinkFinder.exe";Klasor="Misc";Tip="exe";Aciklama="Hardlink tespiti"}
 )
 
 $global:psList = @(
@@ -485,8 +489,6 @@ function Show-Category {
     
     $global:BtnDownloadCat.Visibility = 'Visible'
     $global:BtnDownloadCat.Background = $global:bc.ConvertFromString($krHex)
-    # Temiz click handler bağlama. Powershell'de events clear metodları zordur, biz delegateleri korumak için doğrudan eventi ekliyoruz ve Tag da tutuyoruz ki tekrar tetiklenmesin ama şimdilik her kategori gösterdiğinde buton yenilenmiyor. 
-    # En iyi yöntem: sadece parametre atayıp click'te okumak.
     $global:BtnDownloadCat.Tag = $katTools
     
     $global:ItemsContainer.Children.Clear()
@@ -550,16 +552,6 @@ function Show-Category {
         $btnTxt.Margin = [System.Windows.Thickness]::new(0,6,0,6)
         
         $btnBorder.Child = $btnTxt
-        
-        # Tool'u closure'a hapsetmek icin obj'yi script block'a tasi (PowerShell $t loop degiskeni oldugundan dikkat!)
-        $action = {
-            param($toolObj)
-            Write-Log "$($toolObj.Ad) indiriliyor..."
-            Start-Download @($toolObj)
-            Show-Category $global:CatTitle.Text
-        }
-        $btnBorder.Add_MouseLeftButtonDown($action.GetNewClosure())
-        # To pass the tool correctly into the closure, we can use the Button's Tag.
         $btnBorder.Tag = $t
         
         $btnBorder.Add_MouseLeftButtonDown({ param($sender, $e)
