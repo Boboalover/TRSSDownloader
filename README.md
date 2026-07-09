@@ -38,7 +38,7 @@ powershell -Command "IEX (New-Object Net.WebClient).DownloadString('https://raw.
 | **Forensics** | FTK Imager, Hayabusa, Velociraptor |
 | **SystemTools** | System Informer, Everything |
 | **Analysis** | InjGen, Luyten, DPS Analyzer, DIE Engine |
-| **Misc** | Jarabel, Unicode, CachedProgramsList, TimeChangeDetect, MeowNovowareFucker, MeowDoomsdayFucker, HardlinkFinder |
+| **Misc** | Jarabel, Unicode, CachedProgramsList, TimeChangeDetect, MeowNovowareFucker, MeowDoomsdayFucker, HardlinkFinder, MarsPixelDumpAnalyzer.exe, RegistryScanner |
 
 ## Scriptler
 
