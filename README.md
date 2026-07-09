@@ -17,11 +17,10 @@ Bu proje, tek tek link arama ve klasör düzenleme uğraşını azaltmak için y
 **Admin CMD** üzerinden aşağıdaki komutu çalıştır:
 
 ```
-powershell -Command "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/Boboalover/TRSSDownloader/main/TRSS-Downloader.ps1')"
+powershell -Command "Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass; Invoke-Expression (Invoke-RestMethod 'https://raw.githubusercontent.com/Boboalover/TRSSDownloader/main/TRSS-Downloader.ps1')"
 ```
 
 > ⚠️ Yönetici (Admin) olarak çalıştırılması gereklidir
-> ⚠️ Windows Defender kapatmayı unutmayın
 
 ## Araçlar
 
