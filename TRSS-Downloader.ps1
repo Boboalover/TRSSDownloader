@@ -65,6 +65,7 @@ $global:toolList = @(
     [PSCustomObject]@{Url="https://github.com/santiagolin/TimeChangeDetect/releases/download/1.0/TimeChangeDetect.exe";Ad="TimeChangeDetect.exe";Klasor="Misc";Tip="exe";Aciklama="Sistem saati degisim tespiti"}
     [PSCustomObject]@{Url="https://github.com/MeowTonynoh/MeowNovowareFucker/raw/refs/heads/main/MeowNovowareFucker.exe";Ad="MeowNovowareFucker.exe";Klasor="Misc";Tip="exe";Aciklama="Novoware client tespit edici"}
     [PSCustomObject]@{Url="https://github.com/MeowTonynoh/MeowDoomsdayFucker/raw/refs/heads/main/MeowDoomsdayFucker.exe";Ad="MeowDoomsdayFucker.exe";Klasor="Misc";Tip="exe";Aciklama="Doomsday client tespit edici"}
+    [PSCustomObject]@{Url="https://github.com/MeowTonynoh/MeowClientFucker/releases/download/v1.0/MeowClientFucker.exe";Ad="MeowClientFucker.exe";Klasor="Misc";Tip="exe";Aciklama="Genel client/mod tespit edici"}
     [PSCustomObject]@{Url="https://github.com/praiselily/HardlinkFinder/releases/download/Tools/hardlink.exe";Ad="HardlinkFinder.exe";Klasor="Misc";Tip="exe";Aciklama="Hardlink tespiti"}
     [PSCustomObject]@{Url="https://github.com/Inkenal/Registry-Scanner/releases/download/1.0/RegistryScanner.exe";Ad="RegistryScanner.exe";Klasor="Misc";Tip="exe";Aciklama="Şüpheli Registry ayarları tespiti"}
     [PSCustomObject]@{Url="https://github.com/zedoonvm1/unfinishedtools/releases/download/beta/MarsPixelDumpAnalyzer.exe";Ad="MarsPixelDumpAnalyzer.exe";Klasor="Misc";Tip="exe";Aciklama="Dump Analyzer"}
