@@ -55,7 +55,6 @@ powershell -Command "Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass;
 
 | Script | Yazar |
 |--------|-------|
-| TR SS Auto Downloader | korkusuzadX |
 | TR SS REG Checker | boboalover |
 | TR SS Macro Checker | boboalover |
 | Faker Detection | Praiselily |
