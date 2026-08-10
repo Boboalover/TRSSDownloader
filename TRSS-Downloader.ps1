@@ -1,13 +1,11 @@
-﻿#Requires -Version 5.1
-<#
-    TRSS Tools - Minecraft SS ve adli bilisim araclari indiricisi
-    Arayuz: TurkishPvP tasarim dili (saf siyah zemin, tek marka kirmizisi, hairline ayrimlar)
-
-    Arac listesi catalog.json dosyasindan okunur. Depoya her push sonrasi
-    kullanicilar guncel listeyi otomatik alir; scripti degistirmek gerekmez.
-#>
-[CmdletBinding()]
-param()
+﻿# TRSS Tools - Minecraft SS ve adli bilisim araclari indiricisi
+# Arayuz: TurkishPvP tasarim dili (saf siyah zemin, tek marka kirmizisi, hairline ayrimlar)
+#
+# Arac listesi catalog.json dosyasindan okunur. Depoya her push sonrasi
+# kullanicilar guncel listeyi otomatik alir; scripti degistirmek gerekmez.
+#
+# NOT: Bu dosya "iex (irm ...)" ile de calistirildigi icin param() / [CmdletBinding()]
+# kullanilmaz - Invoke-Expression'da bunlar ilk ifade olmadigi icin ayristirma hatasi verir.
 
 Clear-Host
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
