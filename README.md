@@ -69,3 +69,4 @@ powershell -Command "Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass;
 
 - [Mehmetyll](https://github.com/Mehmetyll) — özel teşekkürler. GUI'de çok yardımcı oldu ve kendisi olmasa bu script olmazdı
 - [Einfrieren](https://github.com/korkusuzadX) — önceki toolun yapımcısı ve yine yardımı dokundu
+- [Sheduxdev](https://github.com/sheduxdev) - Yeni updatelerden tamamen sorumlu
