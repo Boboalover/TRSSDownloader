@@ -1,0 +1,82 @@
+{
+  "surum": "3.0",
+  "guncelleme": "2026-08-10",
+  "araclar": [
+    { "klasor": "NirSoft", "ad": "WinPrefetchView_x64.zip", "tip": "zip", "aciklama": "Prefetch dosyalarını görüntüler", "url": "https://www.nirsoft.net/utils/winprefetchview-x64.zip" },
+    { "klasor": "NirSoft", "ad": "LastActivityView.zip", "tip": "zip", "aciklama": "Son kullanıcı aktivitelerini listeler", "url": "https://www.nirsoft.net/utils/lastactivityview.zip" },
+    { "klasor": "NirSoft", "ad": "UsbDriveLog.zip", "tip": "zip", "aciklama": "USB sürücü geçmişini gösterir", "url": "https://www.nirsoft.net/utils/usbdrivelog.zip" },
+    { "klasor": "NirSoft", "ad": "WinDefLogView.zip", "tip": "zip", "aciklama": "Windows Defender log görüntüleyici", "url": "https://www.nirsoft.net/utils/windeflogview.zip" },
+    { "klasor": "NirSoft", "ad": "ShellBagsView.zip", "tip": "zip", "aciklama": "Shell bags / klasör geçmişi", "url": "https://www.nirsoft.net/utils/shellbagsview.zip" },
+    { "klasor": "NirSoft", "ad": "UninstallView_x64.zip", "tip": "zip", "aciklama": "Kaldırılan programları listeler", "url": "https://www.nirsoft.net/utils/uninstallview-x64.zip" },
+    { "klasor": "NirSoft", "ad": "LoadedDllsView_x64.zip", "tip": "zip", "aciklama": "Yüklü DLL listesi", "url": "https://www.nirsoft.net/utils/loadeddllsview-x64.zip" },
+    { "klasor": "NirSoft", "ad": "JumpListsView.zip", "tip": "zip", "aciklama": "Jump list geçmişi", "url": "https://www.nirsoft.net/utils/jumplistsview.zip" },
+    { "klasor": "NirSoft", "ad": "Clipboardic.zip", "tip": "zip", "aciklama": "Pano geçmişini görüntüler", "url": "https://www.nirsoft.net/utils/clipboardic.zip" },
+
+    { "klasor": "EricZimmerman", "ad": "TimelineExplorer.zip", "tip": "zip", "aciklama": "Zaman çizelgesi analizi", "url": "https://download.ericzimmermanstools.com/net9/TimelineExplorer.zip" },
+    { "klasor": "EricZimmerman", "ad": "SrumECmd.zip", "tip": "zip", "aciklama": "SRUM veritabanı ayrıştırıcı", "url": "https://download.ericzimmermanstools.com/SrumECmd.zip" },
+    { "klasor": "EricZimmerman", "ad": "AmcacheParser.zip", "tip": "zip", "aciklama": "Amcache analiz aracı", "url": "https://download.ericzimmermanstools.com/AmcacheParser.zip" },
+    { "klasor": "EricZimmerman", "ad": "WxTCmd.zip", "tip": "zip", "aciklama": "Windows Timeline veritabanı", "url": "https://download.ericzimmermanstools.com/net6/WxTCmd.zip" },
+    { "klasor": "EricZimmerman", "ad": "RegistryExplorer.zip", "tip": "zip", "aciklama": "Registry gezgini", "url": "https://download.ericzimmermanstools.com/net9/RegistryExplorer.zip" },
+    { "klasor": "EricZimmerman", "ad": "MFTECmd.zip", "tip": "zip", "aciklama": "MFT dosya sistemi ayrıştırıcı", "url": "https://download.ericzimmermanstools.com/net9/MFTECmd.zip" },
+    { "klasor": "EricZimmerman", "ad": "JLECmd.zip", "tip": "zip", "aciklama": "JumpList kayıtlarını CSV olarak ayrıştırır", "url": "https://download.ericzimmermanstools.com/JLECmd.zip" },
+    { "klasor": "EricZimmerman", "ad": "JumpListExplorer.zip", "tip": "zip", "aciklama": "JumpList kayıtlarını arayüzle inceler", "url": "https://download.ericzimmermanstools.com/net9/JumpListExplorer.zip" },
+
+    { "klasor": "Spokwn", "ad": "BAMParser.exe", "tip": "exe", "aciklama": "BAM kaydı ayrıştırıcı", "url": "https://github.com/spokwn/BAM-parser/releases/download/v1.2.9/BAMParser.exe" },
+    { "klasor": "Spokwn", "ad": "PrefetchParser.exe", "tip": "exe", "aciklama": "Prefetch ayrıştırıcı", "url": "https://github.com/spokwn/prefetch-parser/releases/download/v1.5.5/PrefetchParser.exe" },
+    { "klasor": "Spokwn", "ad": "ProcessParser.exe", "tip": "exe", "aciklama": "Süreç bilgisi ayrıştırıcı", "url": "https://github.com/spokwn/process-parser/releases/download/v0.5.5/ProcessParser.exe" },
+    { "klasor": "Spokwn", "ad": "PcaSvcExecuted.exe", "tip": "exe", "aciklama": "PCA servisi yürütme kaydı", "url": "https://github.com/spokwn/pcasvc-executed/releases/download/v0.8.7/PcaSvcExecuted.exe" },
+    { "klasor": "Spokwn", "ad": "JournalTraceNormal.exe", "tip": "exe", "aciklama": "USN Journal izleme", "url": "https://github.com/spokwn/JournalTrace/releases/download/1.2/JournalTraceNormal.exe" },
+    { "klasor": "Spokwn", "ad": "PathsParser.exe", "tip": "exe", "aciklama": "Dosya yolu geçmişi", "url": "https://github.com/spokwn/PathsParser/releases/download/v1.2/PathsParser.exe" },
+    { "klasor": "Spokwn", "ad": "KernelLiveDumpTool.exe", "tip": "exe", "aciklama": "Kernel canlı dump aracı", "url": "https://github.com/spokwn/KernelLiveDumpTool/releases/download/v1.1/KernelLiveDumpTool.exe" },
+    { "klasor": "Spokwn", "ad": "espouken.exe", "tip": "exe", "aciklama": "Espouken analiz aracı", "url": "https://github.com/spokwn/Tool/releases/download/v1.1.2/espouken.exe" },
+    { "klasor": "Spokwn", "ad": "BamDeletedKeys.exe", "tip": "exe", "aciklama": "Silinen BAM kayıtları", "url": "https://github.com/spokwn/BamDeletedKeys/releases/download/v1.0/BamDeletedKeys.exe" },
+
+    { "klasor": "OrbDiff", "ad": "pv++.exe", "tip": "exe", "aciklama": "Detaylı Prefetch analiz aracı", "url": "https://github.com/Orbdiff/PrefetchView/releases/download/v1.6.6/pv++.exe" },
+    { "klasor": "OrbDiff", "ad": "AmcacheParser.exe", "tip": "exe", "aciklama": "Detaylı Amcache analiz aracı", "url": "https://github.com/Orbdiff/AmcacheParser/releases/download/v1.0/AmcacheParser.exe" },
+    { "klasor": "OrbDiff", "ad": "JARParser.exe", "tip": "exe", "aciklama": "Basit bir JAR tarayıcı", "url": "https://github.com/Orbdiff/JARParser/releases/download/v1.2/JARParser.exe" },
+    { "klasor": "OrbDiff", "ad": "Fileless.exe", "tip": "exe", "aciklama": "PowerShell izleriyle fileless arar", "url": "https://github.com/Orbdiff/Fileless/releases/download/v1.3/fileless.exe" },
+    { "klasor": "OrbDiff", "ad": "BAMReveal.exe", "tip": "exe", "aciklama": "BAM kayıtlarını görüntüler", "url": "https://github.com/Orbdiff/BAMReveal/releases/download/v1.3/BAMReveal.exe" },
+    { "klasor": "OrbDiff", "ad": "OrbDiff-DPSAnalyzer.exe", "tip": "exe", "aciklama": "DPS analiz aracı", "url": "https://github.com/Orbdiff/DPS-Analyzer/releases/download/v1.1/dpsanalyzer.exe" },
+
+    { "klasor": "RedLotus", "ad": "RedLotusModAnalyzer.exe", "tip": "exe", "aciklama": "Mod analiz aracı", "url": "https://github.com/ItzIceHere/RedLotus-Mod-Analyzer/releases/download/RL/RedLotusModAnalyzer.exe" },
+    { "klasor": "RedLotus", "ad": "RedLotusAltChecker.exe", "tip": "exe", "aciklama": "Alt hesap kontrol aracı", "url": "https://github.com/ItzIceHere/RedLotusAltChecker/releases/download/RL/RedLotusAltChecker.exe" },
+    { "klasor": "RedLotus", "ad": "RedLotusTaskSentinel.exe", "tip": "exe", "aciklama": "Görev izleyici sentinel", "url": "https://github.com/ItzIceHere/RedLotus-Task-Sentinel/releases/download/RL/RedLotusTaskSentinel.exe" },
+
+    { "klasor": "Magnet", "ad": "MagnetEncryptedDiskDetector.exe", "tip": "exe", "aciklama": "Şifreli disk tespit aracı", "url": "https://go.magnetforensics.com/e/52162/MagnetEncryptedDiskDetector/kpt9bg/1663239667/h/LtXFtTL-Soawv5C1oL3BIEghi7e1Lx93yesZLR--Ok0" },
+    { "klasor": "Magnet", "ad": "MRCv120.exe", "tip": "exe", "aciklama": "RAM dump aracı", "url": "https://go.magnetforensics.com/e/52162/mail-utm-campaign-UTMC-0000044/llr4bg/1663358653/h/4kZ9Y4i2yPRqBzuQMrywA_v5bfkpG3rG8gEiSWrYU70" },
+
+    { "klasor": "Forensics", "ad": "FTK_Imager_4.7.1.exe", "tip": "exe", "aciklama": "Disk imajı alma aracı", "url": "https://archive.org/download/access-data-ftk-imager-4.7.1/AccessData_FTK_Imager_4.7.1.exe" },
+    { "klasor": "Forensics", "ad": "hayabusa-3.6.0-win-aarch64.zip", "tip": "zip", "aciklama": "Windows olay günlüğü analizi", "url": "https://github.com/Yamato-Security/hayabusa/releases/download/v3.6.0/hayabusa-3.6.0-win-aarch64.zip" },
+    { "klasor": "Forensics", "ad": "Velocidace.exe", "tip": "exe", "aciklama": "Dijital adli bilişim platformu", "url": "https://github.com/Velocidex/velociraptor/releases/download/v0.75/velociraptor-v0.75.1-windows-amd64.exe" },
+
+    { "klasor": "SystemTools", "ad": "SystemInformer_Canary_Setup.exe", "tip": "exe", "aciklama": "Gelişmiş sistem monitörü", "url": "https://github.com/winsiderss/si-builds/releases/download/3.2.25275.112/systeminformer-build-canary-setup.exe" },
+    { "klasor": "SystemTools", "ad": "Everything-Setup.exe", "tip": "exe", "aciklama": "Anlık dosya arama motoru", "url": "https://www.voidtools.com/Everything-1.4.1.1029.x86-Setup.exe" },
+
+    { "klasor": "Analysis", "ad": "InjGen.exe", "tip": "exe", "aciklama": "Enjeksiyon tespit aracı", "url": "https://github.com/NotRequiem/InjGen/releases/download/v2.0/InjGen.exe" },
+    { "klasor": "Analysis", "ad": "Luyten.exe", "tip": "exe", "aciklama": "Java decompiler", "url": "https://github.com/deathmarine/Luyten/releases/download/v0.5.4_Rebuilt_with_Latest_depenencies/luyten-0.5.4.exe" },
+    { "klasor": "Analysis", "ad": "dpsanalyzer.exe", "tip": "exe", "aciklama": "DPS analiz aracı", "url": "https://github.com/nay-cat/dpsanalyzer/releases/download/1.3/dpsanalyzer.exe" },
+    { "klasor": "Analysis", "ad": "DIE_engine_portable.zip", "tip": "zip", "aciklama": "Detect-It-Easy PE analizi", "url": "https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win64_portable_3.09_x64.zip" },
+
+    { "klasor": "Misc", "ad": "MandarinTool.jar", "tip": "jar", "aciklama": "Çoklu SS aracı / JAR decompiler", "url": "https://github.com/Mehmetyll/Mandarin-Tool/releases/download/Mandarin-Tool/MandarinTool.jar" },
+    { "klasor": "Misc", "ad": "Jarabel.Light.exe", "tip": "exe", "aciklama": "JAR analiz aracı", "url": "https://github.com/nay-cat/Jarabel/releases/download/light/Jarabel.Light.exe" },
+    { "klasor": "Misc", "ad": "Unicode.exe", "tip": "exe", "aciklama": "Unicode karakter analizi", "url": "https://github.com/RRancio/Exec/raw/main/Files/Unicode.exe" },
+    { "klasor": "Misc", "ad": "CachedProgramsList.exe", "tip": "exe", "aciklama": "Önbellek program listesi", "url": "https://github.com/ponei/CachedProgramsList/releases/download/1.1/CachedProgramsList.exe" },
+    { "klasor": "Misc", "ad": "TimeChangeDetect.exe", "tip": "exe", "aciklama": "Sistem saati değişim tespiti", "url": "https://github.com/santiagolin/TimeChangeDetect/releases/download/1.0/TimeChangeDetect.exe" },
+    { "klasor": "Misc", "ad": "MeowNovowareFucker.exe", "tip": "exe", "aciklama": "Novoware client tespit edici", "url": "https://github.com/MeowTonynoh/MeowNovowareFucker/raw/refs/heads/main/MeowNovowareFucker.exe" },
+    { "klasor": "Misc", "ad": "MeowDoomsdayFucker.exe", "tip": "exe", "aciklama": "Doomsday client tespit edici", "url": "https://github.com/MeowTonynoh/MeowDoomsdayFucker/raw/refs/heads/main/MeowDoomsdayFucker.exe" },
+    { "klasor": "Misc", "ad": "MeowClientFucker.exe", "tip": "exe", "aciklama": "Genel client / mod tespit edici", "url": "https://github.com/MeowTonynoh/MeowClientFucker/releases/download/v1.0/MeowClientFucker.exe" },
+    { "klasor": "Misc", "ad": "HardlinkFinder.exe", "tip": "exe", "aciklama": "Hardlink tespiti", "url": "https://github.com/praiselily/HardlinkFinder/releases/download/Tools/hardlink.exe" },
+    { "klasor": "Misc", "ad": "RegistryScanner.exe", "tip": "exe", "aciklama": "Şüpheli registry ayarları tespiti", "url": "https://github.com/Inkenal/Registry-Scanner/releases/download/1.0/RegistryScanner.exe" },
+    { "klasor": "Misc", "ad": "MarsPixelDumpAnalyzer.exe", "tip": "exe", "aciklama": "Dump analiz aracı", "url": "https://github.com/zedoonvm1/unfinishedtools/releases/download/beta/MarsPixelDumpAnalyzer.exe" }
+  ],
+  "scriptler": [
+    { "ad": "TR SS REG Checker", "yazar": "boboalover", "aciklama": "Türk SS topluluğu için basit registry kontrol scripti", "url": "https://github.com/Boboalover/TRSS-Simple-Registry-Checker/raw/refs/heads/main/TRSS-regchecker.ps1" },
+    { "ad": "TR SS Macro Checker", "yazar": "boboalover", "aciklama": "Türk SS topluluğu için basit mouse profil kontrolü", "url": "https://github.com/Boboalover/TRSS-mouse-macro-checker/raw/refs/heads/main/TRSSmacroChecker.ps1" },
+    { "ad": "Faker Detection", "yazar": "Praiselily", "aciklama": "Hotspot loglarından sahte oyuncu tespiti", "url": "https://raw.githubusercontent.com/praiselily/WeHateFakers/refs/heads/main/HotspotLogs.ps1" },
+    { "ad": "JAR Scanner", "yazar": "Praiselily", "aciklama": "Şüpheli JAR dosyalarını tarar", "url": "https://raw.githubusercontent.com/praiselily/JARScanner/refs/heads/main/JARScanner.ps1" },
+    { "ad": "Service Enabler", "yazar": "Praiselily", "aciklama": "Kapatılmış servisleri yeniden açar", "url": "https://raw.githubusercontent.com/praiselily/lilith-ps/refs/heads/main/Service-Enabler.ps1" },
+    { "ad": "Services", "yazar": "Praiselily", "aciklama": "Gerekli servislerin durumunu kontrol eder", "url": "https://raw.githubusercontent.com/praiselily/lilith-ps/refs/heads/main/Services.ps1" },
+    { "ad": "BAM Parser", "yazar": "spokwn", "aciklama": "BAM kayıtlarını inceler", "url": "https://raw.githubusercontent.com/spokwn/powershells/refs/heads/main/bamparser.ps1" },
+    { "ad": "DoomsDay Finder v2", "yazar": "zedoonvm1", "aciklama": "Prefetch kullanarak DoomsDay client arar", "url": "https://raw.githubusercontent.com/zedoonvm1/powershell-scripts/refs/heads/main/DoomsDayDetector.ps1" }
+  ]
+}
