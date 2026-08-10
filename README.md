@@ -8,9 +8,22 @@ Bu proje, tek tek link arama ve klasör düzenleme uğraşını azaltmak için y
 
 - Kategorilere ayrılmış araç listesi
 - PowerShell scriptleri için ayrı bölüm
-- Tek yerden hızlı indirme
+- Tek yerden hızlı indirme, araç başına canlı indirme yüzdesi
 - Düzenli klasör yapısı
 - Basit ve hızlı kullanım
+- Araç listesi `catalog.json` dosyasından okunur; depoya push atıldığı anda herkes güncel listeyi alır
+
+## Araç listesini güncellemek
+
+Yeni araç veya script eklemek için `TRSS-Downloader.ps1` dosyasına dokunmaya gerek yok.
+Sadece [`catalog.json`](catalog.json) dosyasını düzenleyip push at:
+
+```json
+{ "klasor": "Misc", "ad": "OrnekArac.exe", "tip": "exe", "aciklama": "Ne işe yarar", "url": "https://..." }
+```
+
+`tip` alanı `exe`, `zip` veya `jar` olabilir. `zip` olanlar indirildikten sonra otomatik ayıklanır.
+Uygulama açılışta katalogu GitHub'dan çeker, bu yüzden kullanıcının bir şey yapmasına gerek kalmaz.
 
 ## Kullanım
 
@@ -32,12 +45,11 @@ powershell -Command "Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass;
 | **Echo** | Echo-Journal, UserAssist, UsbTool |
 | **OrbDiff** | pv++, AmcacheParser, JARParser, Fileless, BAMReveal, DPS Analyzer |
 | **RedLotus** | ModAnalyzer, AltChecker, TaskSentinel |
-| **TRSSCommunity** | PathDuzenleyici, MzHunter, MandarinTool |
 | **Magnet** | EncryptedDiskDetector, RAM Capture |
 | **Forensics** | FTK Imager, Hayabusa, Velociraptor |
 | **SystemTools** | System Informer, Everything |
 | **Analysis** | InjGen, Luyten, DPS Analyzer, DIE Engine |
-| **Misc** | Jarabel, Unicode, CachedProgramsList, TimeChangeDetect, MeowNovowareFucker, MeowDoomsdayFucker, HardlinkFinder, MarsPixelDumpAnalyzer.exe, RegistryScanner |
+| **Misc** | MandarinTool, Jarabel, Unicode, CachedProgramsList, TimeChangeDetect, MeowNovowareFucker, MeowDoomsdayFucker, HardlinkFinder, MarsPixelDumpAnalyzer, RegistryScanner |
 
 ## Scriptler
 
