@@ -72,10 +72,9 @@
   "scriptler": [
     { "ad": "TR SS REG Checker", "yazar": "boboalover", "aciklama": "Türk SS topluluğu için basit registry kontrol scripti", "url": "https://github.com/Boboalover/TRSS-Simple-Registry-Checker/raw/refs/heads/main/TRSS-regchecker.ps1" },
     { "ad": "TR SS Macro Checker", "yazar": "boboalover", "aciklama": "Türk SS topluluğu için basit mouse profil kontrolü", "url": "https://github.com/Boboalover/TRSS-mouse-macro-checker/raw/refs/heads/main/TRSSmacroChecker.ps1" },
-    { "ad": "Faker Detection", "yazar": "Praiselily", "aciklama": "Hotspot loglarından sahte oyuncu tespiti", "url": "https://raw.githubusercontent.com/praiselily/WeHateFakers/refs/heads/main/HotspotLogs.ps1" },
-    { "ad": "JAR Scanner", "yazar": "Praiselily", "aciklama": "Şüpheli JAR dosyalarını tarar", "url": "https://raw.githubusercontent.com/praiselily/JARScanner/refs/heads/main/JARScanner.ps1" },
-    { "ad": "Service Enabler", "yazar": "Praiselily", "aciklama": "Kapatılmış servisleri yeniden açar", "url": "https://raw.githubusercontent.com/praiselily/lilith-ps/refs/heads/main/Service-Enabler.ps1" },
-    { "ad": "Services", "yazar": "Praiselily", "aciklama": "Gerekli servislerin durumunu kontrol eder", "url": "https://raw.githubusercontent.com/praiselily/lilith-ps/refs/heads/main/Services.ps1" },
+    { "ad": "Faker Detection", "yazar": "Lyn1dev", "aciklama": "Hotspot loglarından sahte oyuncu tespiti", "url": "https://raw.githubusercontent.com/Lyn1dev/fakerdetector/main/FakerFinder.ps1" },
+    { "ad": "Service Enabler", "yazar": "Praiselily", "aciklama": "Kapatılmış servisleri yeniden açar", "url": "https://raw.githubusercontent.com/Inkenal/rbw-SS-ps/refs/heads/main/Service-Enabler.ps1" },
+    { "ad": "Services", "yazar": "Praiselily", "aciklama": "Gerekli servislerin durumunu kontrol eder", "url": "https://raw.githubusercontent.com/Inkenal/rbw-SS-ps/refs/heads/main/Services.ps1" },
     { "ad": "BAM Parser", "yazar": "spokwn", "aciklama": "BAM kayıtlarını inceler", "url": "https://raw.githubusercontent.com/spokwn/powershells/refs/heads/main/bamparser.ps1" },
     { "ad": "DoomsDay Finder v2", "yazar": "zedoonvm1", "aciklama": "Prefetch kullanarak DoomsDay client arar", "url": "https://raw.githubusercontent.com/zedoonvm1/powershell-scripts/refs/heads/main/DoomsDayDetector.ps1" }
   ]
