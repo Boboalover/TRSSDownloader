@@ -57,7 +57,7 @@
     { "klasor": "Analysis", "ad": "dpsanalyzer.exe", "tip": "exe", "aciklama": "DPS analiz aracı", "url": "https://github.com/nay-cat/dpsanalyzer/releases/download/1.3/dpsanalyzer.exe" },
     { "klasor": "Analysis", "ad": "DIE_engine_portable.zip", "tip": "zip", "aciklama": "Detect-It-Easy PE analizi", "url": "https://github.com/horsicq/DIE-engine/releases/download/3.09/die_win64_portable_3.09_x64.zip" },
 
-    { "klasor": "Misc", "ad": "MandarinTool.jar", "tip": "jar", "aciklama": "Çoklu SS aracı / JAR decompiler", "url": "https://github.com/Mehmetyll/Mandarin-Tool/releases/download/Mandarin-Tool/MandarinTool.jar" },
+    { "klasor": "Misc", "ad": "MandarinTool.jar", "tip": "jar", "aciklama": "Çoklu SS aracı / JAR decompiler", "url": "https://github.com/Mehmetyll/Mandalin-Tool/releases/download/Mandalin-Tool/MandalinTool.jar" },
     { "klasor": "Misc", "ad": "Jarabel.Light.exe", "tip": "exe", "aciklama": "JAR analiz aracı", "url": "https://github.com/nay-cat/Jarabel/releases/download/light/Jarabel.Light.exe" },
     { "klasor": "Misc", "ad": "Unicode.exe", "tip": "exe", "aciklama": "Unicode karakter analizi", "url": "https://github.com/RRancio/Exec/raw/main/Files/Unicode.exe" },
     { "klasor": "Misc", "ad": "CachedProgramsList.exe", "tip": "exe", "aciklama": "Önbellek program listesi", "url": "https://github.com/ponei/CachedProgramsList/releases/download/1.1/CachedProgramsList.exe" },
