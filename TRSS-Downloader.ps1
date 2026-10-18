@@ -1,12 +1,3 @@
-﻿# TRSS Tools - Minecraft SS ve adli bilisim araclari indiricisi
-# Arayuz: TurkishPvP tasarim dili (saf siyah zemin, tek marka kirmizisi, hairline ayrimlar)
-#
-# Arac listesi catalog.json dosyasindan okunur. Depoya her push sonrasi
-# kullanicilar guncel listeyi otomatik alir; scripti degistirmek gerekmez.
-#
-# NOT: Bu dosya "iex (irm ...)" ile de calistirildigi icin param() / [CmdletBinding()]
-# kullanilmaz - Invoke-Expression'da bunlar ilk ifade olmadigi icin ayristirma hatasi verir.
-
 Clear-Host
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
@@ -514,7 +505,7 @@ function Set-Ilerleme {
     $global:UI.YuzdeYazi.Text = if ($oran -gt 0) { "%" + [Math]::Round($oran * 100) } else { "" }
 }
 
-# giris animasyonu: hafif yukselerek belirme, karta gore gecikmeli
+# giris animasyonu falan filan
 function Anim-Giris {
     param($oge, [int]$sira = 0)
     $oge.Opacity = 0
@@ -578,7 +569,7 @@ function Format-Boyut {
     return "$bayt B"
 }
 
-# Parcali indirme: her blok sonrasi arayuz nefes alir, animasyonlar akmaya devam eder.
+# Parcali indirme şeysi
 function Invoke-Indirme {
     param($adres, $hedef, [scriptblock]$ilerleyince)
     $istek = [System.Net.HttpWebRequest]::Create($adres)
@@ -682,8 +673,8 @@ function Start-Indirme {
 
 # ------------------------------------------------------------------ kartlar --
 
-# Kart govdesi: hairline cerceve, 150 ms hover gecisi.
-# Her kart ayri bir XAML parcasi olarak ayristirilir, isim kapsami kendine ait.
+# Kart govdesi hairline cerceve, 150 ms hover gecisi
+# Her kart ayri bir XAML parcasi olarak ayristirilir isim kapsami kendine ait
 function Get-KartGovde {
     param($yukseklik, $imlec = "Arrow")
     return @"
