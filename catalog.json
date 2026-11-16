@@ -60,8 +60,6 @@
     {"klasor": "VIGIL", "ad": "VigilsStegDetect.exe", "tip": "exe", "aciklama": "StegDetect 1.0: MFT ve diğer izlerle gizlenmiş dosya türlerini ve steganografiyi tarar", "url": "https://github.com/Inkenal/StegDetect/releases/download/main/VigilsStegDetect.exe"},
     {"klasor": "VIGIL", "ad": "VigilsRegistryScanner.exe", "tip": "exe", "aciklama": "RegistryScanner 1.1: Registry yürütme izlerini ve dosya imzalarını tarar", "url": "https://github.com/Inkenal/RegistryScanner/releases/download/main/VigilsRegistryScanner.exe"},
     {"klasor": "VIGIL", "ad": "VigilsTaskParser.exe", "tip": "exe", "aciklama": "TaskParser 1.3: Zamanlanmış ve silinmiş görevleri, şüpheli dosyaları ve imzaları inceler", "url": "https://github.com/Inkenal/TaskParser/releases/download/main/VigilsTaskParser.exe"},
-    {"klasor": "VIGIL", "ad": "Service-Enabler.ps1", "tip": "ps1", "aciklama": "Kapatılmış servisleri yeniden açar", "url": "https://raw.githubusercontent.com/Inkenal/rbw-SS-ps/refs/heads/main/Service-Enabler.ps1"},
-    {"klasor": "VIGIL", "ad": "Services.ps1", "tip": "ps1", "aciklama": "Gerekli servislerin durumunu kontrol eder", "url": "https://raw.githubusercontent.com/Inkenal/rbw-SS-ps/refs/heads/main/Services.ps1"},
 
     { "klasor": "Misc", "ad": "MandarinTool.jar", "tip": "jar", "aciklama": "Çoklu SS aracı / JAR decompiler", "url": "https://github.com/Mehmetyll/Mandalin-Tool/releases/download/Mandalin-Tool/MandalinTool.jar" },
     { "klasor": "Misc", "ad": "Jarabel.Light.exe", "tip": "exe", "aciklama": "JAR analiz aracı", "url": "https://github.com/nay-cat/Jarabel/releases/download/light/Jarabel.Light.exe" },
