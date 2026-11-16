@@ -7,7 +7,7 @@ Add-Type -AssemblyName PresentationCore
 Add-Type -AssemblyName WindowsBase
 Add-Type -AssemblyName System.Windows.Forms
 
-$global:Surum     = "3.0"
+$global:Surum     = "3.1"
 $global:RepoRaw   = "https://raw.githubusercontent.com/Boboalover/TRSSDownloader/main"
 $global:ToolsRoot = Join-Path ([System.Environment]::GetFolderPath("MyDocuments")) "SSTools"
 $global:Mesgul    = $false
@@ -321,7 +321,7 @@ if ($katalog) {
                                    FontSize="13.5" VerticalAlignment="Center" Margin="11,0,0,0"/>
                         <Border CornerRadius="10" Height="20" Background="{StaticResource Surface}" Padding="8,0"
                                 Margin="10,1,0,0" VerticalAlignment="Center">
-                            <TextBlock x:Name="SurumEtiket" Text="v3.0" Foreground="{StaticResource Dim}"
+                            <TextBlock x:Name="SurumEtiket" Text="v3.1" Foreground="{StaticResource Dim}"
                                        FontSize="10" VerticalAlignment="Center"/>
                         </Border>
                         <Border x:Name="YetkiRozet" CornerRadius="10" Height="20" Background="{StaticResource Surface}"
