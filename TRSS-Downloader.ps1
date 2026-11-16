@@ -17,22 +17,21 @@ $global:SonKat    = ""
 # ---------------------------------------------------------------- katalog ----
 
 function Get-Katalog {
-    # once yerel dosya (depo klonuysa), sonra GitHub. Ikisi de yoksa bos katalog.
-    $yerel = if ($PSScriptRoot) { Join-Path $PSScriptRoot "catalog.json" } else { $null }
-    if ($yerel -and (Test-Path $yerel)) {
-        try { return (Get-Content $yerel -Raw -Encoding UTF8 | ConvertFrom-Json) } catch { }
-    }
     try {
         $onbellekKir = [guid]::NewGuid().ToString("N")
         return Invoke-RestMethod "$global:RepoRaw/catalog.json?v=$onbellekKir" -TimeoutSec 25
     } catch {
+        $yerel = if ($PSScriptRoot) { Join-Path $PSScriptRoot "catalog.json" } else { $null }
+        if ($yerel -and (Test-Path $yerel)) {
+            try { return (Get-Content $yerel -Raw -Encoding UTF8 | ConvertFrom-Json) } catch { }
+        }
         return $null
     }
 }
 
 $katalog = Get-Katalog
 if ($katalog) {
-    $global:AracListesi   = @($katalog.araclar)
+    $global:AracListesi   = @($katalog.araclar | Where-Object { $_.tip -ne "ps1" -and $_.ad -notmatch '(?i)\.ps1$' -and $_.url -notmatch '(?i)\.ps1(?:[?#]|$)' })
     $global:ScriptListesi = @($katalog.scriptler)
     $global:KatalogSurum  = $katalog.surum
 } else {
@@ -999,6 +998,17 @@ $UI.BtnKlasorAc.Add_Click({
 
 $UI.BtnYenile.Add_Click({
     if ($global:Mesgul) { return }
+    $guncel = Get-Katalog
+    if (-not $guncel) { Yaz-Gunluk "Katalog alınamadı."; return }
+    $global:AracListesi = @($guncel.araclar | Where-Object { $_.tip -ne "ps1" -and $_.ad -notmatch '(?i)\.ps1$' -and $_.url -notmatch '(?i)\.ps1(?:[?#]|$)' })
+    $global:ScriptListesi = @($guncel.scriptler)
+    $global:KatalogSurum = $guncel.surum
+    $global:UI.ImzaYazi.Text = "boboalover  ·  katalog v$global:KatalogSurum"
+    $secili = $global:UI.Baslik.Text
+    if ($secili -ne "Scriptler") { Build-KenarCubugu }
+    if ($secili -ne "Scriptler" -and $secili -notin $global:AracListesi.klasor) {
+        $global:UI.Baslik.Text = "Genel Bakış"
+    }
     if ($global:UI.Baslik.Text -eq "Genel Bakış") { Show-GenelBakis }
     elseif ($global:UI.Baslik.Text -eq "Scriptler") { Show-Scriptler }
     else { $global:SonKat = ""; Show-Kategori $global:UI.Baslik.Text }
