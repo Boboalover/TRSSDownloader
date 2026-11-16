@@ -22,7 +22,7 @@ Sadece [`catalog.json`](catalog.json) dosyasını düzenleyip push at:
 { "klasor": "Misc", "ad": "OrnekArac.exe", "tip": "exe", "aciklama": "Ne işe yarar", "url": "https://..." }
 ```
 
-`tip` alanı `exe`, `zip` veya `jar` olabilir. `zip` olanlar indirildikten sonra otomatik ayıklanır.
+`tip` alanı `exe`, `zip`, `jar` veya `ps1` olabilir. `zip` olanlar indirildikten sonra otomatik ayıklanır.
 Uygulama açılışta katalogu GitHub'dan çeker, bu yüzden kullanıcının bir şey yapmasına gerek kalmaz.
 
 ## Kullanım
@@ -49,7 +49,10 @@ powershell -Command "Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass;
 | **Forensics** | FTK Imager, Hayabusa, Velociraptor |
 | **SystemTools** | System Informer, Everything |
 | **Analysis** | InjGen, Luyten, DPS Analyzer, DIE Engine |
-| **Misc** | MandarinTool, Jarabel, Unicode, CachedProgramsList, TimeChangeDetect, MeowNovowareFucker, MeowDoomsdayFucker, HardlinkFinder, MarsPixelDumpAnalyzer, RegistryScanner |
+| **VIGIL** | VigilsStegDetect (1.0), VigilsRegistryScanner (1.1), VigilsTaskParser (1.3), Service-Enabler.ps1, Services.ps1 |
+| **Misc** | MandarinTool, Jarabel, Unicode, CachedProgramsList, TimeChangeDetect, MeowNovowareFucker, MeowDoomsdayFucker, HardlinkFinder, MarsPixelDumpAnalyzer |
+
+VIGIL kategorisindeki Inkenal araçları indirildiğinde `SSTools\VIGIL` klasörü otomatik oluşturulur. Service Enabler ve Services bu klasöre indirilebilir; Scriptler sekmesindeki çalıştırma kısayolları da kullanılabilir.
 
 ## Scriptler
 
